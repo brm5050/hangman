@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<head> 
+	<title>Hangman Game</title>
+
+<link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+	<div class="row">
+
+	<div class="title">
+	<h1>Hangman - Country Edition</h1>
+	</div>
+	</div>
+	<div class="row">
+
+		<div class="col-lg-4">
+		<!--Globe Picture-->
+		<img src="globe.jpg" alt="Bryan Modula" class="img-circle tryout">
+
+		</div>
+
+		<div class="col-lg-4">
+		<!--Game interface-->
+		<canvas id="game-canvas">
+		Your browser does not support the HTML5 canvas tag.
+		</canvas>
+		</div>
+
+		<div class="col-lg-4">
+		<!--Globe Picture-->
+		<img src="globe.jpg" alt="Bryan Modula" class="img-circle tryout">
+		</div>
+
+	</div>
+	
+	<div class="row">
+		<div id=:"let-cont_1">
+			<div id="letter1"></div>
+		</div>
+
+		<div id=:"let-cont_2">
+			<div id="letter2"></div>
+		</div>
+
+		<div id=:"let-cont_3">
+			<div id="letter3"></div>
+		</div>
+
+		<div id=:"let-cont_4">
+			<div id="letter4"></div>
+		</div>
+
+		<div id=:"let-cont_5">
+			<div id="letter5"></div>
+		</div>
+
+		<div id=:"let-cont_6">
+			<div id="letter6"></div>
+		</div>
+
+		<div id=:"let-cont_6">
+			<div id="letter6"></div>
+		</div>
+
+		<div id=:"let-cont_7">
+			<div id="letter7"></div>
+		</div>
+
+		<div id=:"let-cont_8">
+			<div id="letter8"></div>
+		</div>
+
+		<div id=:"let-cont_9">
+			<div id="letter9"></div>
+		</div>
+
+		<div id=:"let-cont_10">
+			<div id="letter10"></div>
+		</div>
+
+		<div id=:"let-cont_11">
+			<div id="letter11"></div>
+		</div>
+
+		<div id=:"let-cont_12">
+			<div id="letter12"></div>
+		</div>
+
+		<div id=:"let-cont_13">
+			<div id="letter13"></div>
+		</div>
+
+		<div id=:"let-cont_14">
+			<div id="letter14"></div>
+		</div>
+
+		<div id=:"let-cont_15">
+			<div id="letter15"></div>
+		</div>
+
+		<div id=:"let-cont_16">
+			<div id="letter16"></div>
+		</div>
+
+		<div id=:"let-cont_17">
+			<div id="letter17"></div>
+		</div>
+
+		<div id=:"let-cont_18">
+			<div id="letter18"></div>
+		</div>
+
+		<div id=:"let-cont_19">
+			<div id="letter19"></div>
+		</div>	
+
+		<div id=:"let-cont_20">
+			<div id="letter20"></div>
+		</div>	
+
+		<div id=:"let-cont_21">
+			<div id="letter21"></div>
+		</div>	
+
+		<div id=:"let-cont_22">
+			<div id="letter22"></div>
+		</div>	
+			
+		<div id=:"let-cont_23">
+			<div id="letter23"></div>
+		</div>	
+			
+		<div id=:"let-cont_24">
+			<div id="letter24"></div>
+		</div>		
+
+		<div id=:"let-cont_25">
+			<div id="letter25"></div>
+		</div>	
+
+		
+
+	</div>
+
+
+	<div class="row">
+	<!--where to type in letters-->
+		<h1 id="letters">
+		<a id="a">A</a>
+		<a id="b">B</a>
+		<a id="c">C</a>
+		<a id="d">D</a>
+		<a id="e">E</a>
+		<a id="f">F</a>
+		<a id="g">G</a>
+		<a id="h">H</a>
+		<a id="i">I</a>
+		<a id="j">J</a>
+		<a id="k">K</a>
+		<a id="l">L</a>
+		<a id="m">M</a>
+		<br>
+		<a id="n">N</a>
+		<a id="o">O</a>
+		<a id="p">P</a>
+		<a id="q">Q</a>
+		<a id="r">R</a>
+		<a id="s">S</a>
+		<a id="t">T</a>
+		<a id="u">U</a>
+		<a id="v">V</a>
+		<a id="w">W</a>
+		<a id="x">X</a>
+		<a id="y">Y</a>
+		<a id="z">Z</a>
+		
+
+		</h1> 
+		<br>
+
+		<div>
+		<h1 id=lives>You have 7 chances</h1>
+
+		<div class="btn-group">
+  		<button class="btn btn-default btn-lg dropdown-toggle"  id="myBtn" type="button" aria-haspopup="true" aria-expanded="false" >
+    		New Word 
+  		</button>
+
+		</div>
+
+	</div>
+	<div class="row">
+	<!--footer-->
+	<p class="footer">&copy Bryan Modula 2017</p>
+	
+	</div>
+</body>
