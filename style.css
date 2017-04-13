@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+	font-family: 'Macondo' , cursive;
+	color: lightblue;
+}
+.row {
+	text-align: center
+}
+.title{
+	color: lightblue;
+}
+
+#letters{
+	color: lightblue;
+}
+
+#game-canvas{
+	background-color: white;
+	height: 300px;
+	width:80%;
+	border: 10px;
+	border-color: blue;
+	background-image: url(canvas_background.png)
+}
+a{
+	color: lightblue;
+	cursor: pointer;
+}
+.btn-group{
+	margin-top: 50px;
+}
+.footer{
+	margin-top:100px;
+}
+
+p{
+	color: pink;
+}
